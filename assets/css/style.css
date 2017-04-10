@@ -1,0 +1,141 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url("../images/Quiz.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.jumbotron{
+  background-color: rgba(51, 51, 51, 0.68);
+  padding:20px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  padding: 20px;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+    padding:20px;
+  }
+}
+#image-holder {
+
+/* Positioning */
+  margin: 0 auto;
+
+      
+  width: 400px;
+
+          
+  text-align: center;
+
+}
+
+      
+}
+#initial-instructions{
+  text-align: center;
+}
+
+#pleaseSelect{
+  text-align: center;
+  display: none;
+  color: tomato;
+  padding:20px;
+        
+}
+
+#final-score{
+  display: none;
+  padding: 20px;
+}
+
+ul{
+  list-style-type: none;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+li:hover{
+  background-color: orange;
+
+}
+button{
+  border-radius: 6px;
+  color:black;
+  background-color: #ddd;
+  border: none;
+
+}
+#initial-instructions{
+
+  padding:20px;
+}

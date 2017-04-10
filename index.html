@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Arrested Development trivia game!</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <link href="assets/css/style.css" rel="stylesheet">
+
+ 
+  </head>
+
+  <body>
+
+    <div class="container">
+   
+
+      <div class="jumbotron">
+       <div class="row">
+         <div class="col-md-6">timer: <span id="time">00</span> secs
+          
+          </div>
+          
+          <div class= "col-md-6" id="image-holder"></div>
+           <div id="initial-instructions">
+
+            <h2>Welcome to the Arrested Development trivia game!</h2>
+            
+            <p>You will have 20 seconds to guess which character said the quote. Click the "start" button to begin!</p>
+            </div>
+            <div id="radio-buttons"></div>
+          <div class="row">
+            <div>
+              <p id="pleaseSelect">Uh oh. Looks like you ran out of time. Please select an answer to move on</p>
+              <h3 id= "final-score">Our time together has come to an end. You got <span id="correct"></span> right, and <span id="incorrect"></span> wrong.<span id="message"></span></h3>
+                 
+            </div>
+          </div>
+         
+         
+        <div class="row">
+      <!-- Div containing our stopwatch controls -->
+      <div id="buttons">
+        <button id="start">Start</button>
+        <button id="exit">Stop</button>
+      </div>
+
+      
+        </div>
+        </div>
+      </div>
+
+
+    </div> <!-- /container -->
+
+
+   <script type="text/javascript" src="assets/javascript/logic.js"></script>
+  </body>
+</html>
